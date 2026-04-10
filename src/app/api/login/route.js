@@ -28,6 +28,6 @@ export async function POST(req){
     path: "/"
   });
 
-  return res;
   console.log("using db pool");
+  return res;
 }
