@@ -16,7 +16,7 @@ const client = mqtt.connect("mqtt://localhost:1883");
 const db = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
-  password: "",
+  password: "123456",
   database: "iot_system"
 });
 
