@@ -29,4 +29,5 @@ export async function POST(req){
   });
 
   return res;
+  console.log("using db pool");
 }

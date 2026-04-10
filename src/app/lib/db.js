@@ -9,5 +9,5 @@ const pool = mysql.createPool({
   connectionLimit: 10,
   queueLimit: 0
 });
-
+console.log("DB CONNECT TO:", "76.13.192.195");
 export default pool;
